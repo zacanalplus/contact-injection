@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ALLQRY" xml:space="preserve">
+    <value>SELECT * FROM </value>
+  </data>
+  <data name="BENCHMRKEN" xml:space="preserve">
+    <value>Inclusion / Exclusion process ended successfully. </value>
+  </data>
+  <data name="BENCHMRKST" xml:space="preserve">
+    <value> Inclusion / Exclusion process started. </value>
+  </data>
+  <data name="CHAROVRFLOW" xml:space="preserve">
+    <value>Character overflow exception, nothing more.</value>
+  </data>
+  <data name="CHARUNDFLOW" xml:space="preserve">
+    <value>Character underflow exception, nothing more.</value>
+  </data>
+  <data name="CLEAROK" xml:space="preserve">
+    <value>All Contact are cleared from contact list :</value>
+  </data>
+  <data name="CONTIDQRY" xml:space="preserve">
+    <value>SELECT 1 FROM mm_genesys_ids WHERE genesys_id = :genesys_id AND contactlistid = :contactlistid</value>
+  </data>
+  <data name="DATAFORMATERR" xml:space="preserve">
+    <value>Oracle data extraction format error, unexpected Inclusion/Exclusion data format</value>
+  </data>
+  <data name="DBEXCEPTION" xml:space="preserve">
+    <value>Error in performing DB operation, environment : </value>
+  </data>
+  <data name="DBNOTCONNECTED" xml:space="preserve">
+    <value>Database connection failed. </value>
+  </data>
+  <data name="DUPCONTLST" xml:space="preserve">
+    <value>Request cannot be fullfilled. Contact List with same name or ID exists in creating :</value>
+  </data>
+  <data name="EMPTYDATA" xml:space="preserve">
+    <value>No data get from database, environment : </value>
+  </data>
+  <data name="ERR_GET_TOKEN" xml:space="preserve">
+    <value>Unknown Error in getting token: access token was not generated or got. </value>
+  </data>
+  <data name="FAILAGNTACTS" xml:space="preserve">
+    <value>Error in listing agent activity summary from Genesys :</value>
+  </data>
+  <data name="FAILCHKSELFINFO" xml:space="preserve">
+    <value>Error in checking self organization info : </value>
+  </data>
+  <data name="FAILCONTLST" xml:space="preserve">
+    <value>Error in listing contact from Genesys :</value>
+  </data>
+  <data name="FAILCRCONTLST" xml:space="preserve">
+    <value>Error occurred creating contact list in Genesys :</value>
+  </data>
+  <data name="FAILGENERICCALL" xml:space="preserve">
+    <value>Error in making Genesys API call :</value>
+  </data>
+  <data name="FAILGENERICLST" xml:space="preserve">
+    <value>Error in listing some data from Genesys : </value>
+  </data>
+  <data name="GENESYSGENERICERRMSG" xml:space="preserve">
+    <value>Genesys error : </value>
+  </data>
+  <data name="GENIDQRY" xml:space="preserve">
+    <value>SELECT genesys_id FROM mm_genesys_ids WHERE numabo = :numabo AND contactlistid = :contactlistid</value>
+  </data>
+  <data name="INSGENID" xml:space="preserve">
+    <value>INSERT INTO mm_genesys_ids VALUES (:genesys_id, :numabo, :contactlistid)</value>
+  </data>
+  <data name="INVPROXY" xml:space="preserve">
+    <value>Invalid or bad proxy configuration parameter(s), details : </value>
+  </data>
+  <data name="NFNDCONTLIST" xml:space="preserve">
+    <value>Contact List not found error, contact list ID :</value>
+  </data>
+  <data name="NOTJSONSTORE" xml:space="preserve">
+    <value>Invalid Json store path, Json store path not found. </value>
+  </data>
+  <data name="PKEY" xml:space="preserve">
+    <value>E6C310D57DED0DCBAE560266AD84B22DDED05BA3030E3D18DC9ED0BCE5736995A0000C5D315B263CBE5D730D211E46B69932C0816BABA09729663AC702DDB68C5D28200A646B732278CAE42DBB2929502D6B</value>
+  </data>
+  <data name="TKEY" xml:space="preserve">
+    <value>E6C310D57DED0DCBAE560266AD84B22DDED05BA3030E3D18DC9ED0BCE5736995A0000C5D315B263CBE5D730D211E46B69932C0816BABA09729663AC702DDB68C5D28200A646B732278CAE4</value>
+  </data>
+  <data name="ZEROEXCDATA" xml:space="preserve">
+    <value> No exclusion data deteced. Environment :</value>
+  </data>
+  <data name="ZEROINSDATA" xml:space="preserve">
+    <value> No inclusion data detected. Environment : </value>
+  </data>
+</root>
